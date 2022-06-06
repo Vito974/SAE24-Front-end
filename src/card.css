@@ -163,6 +163,7 @@
 .tags a:hover {
     background: linear-gradient(90deg,#ff8a00,#e52e71);
     text-shadow: none;
+    box-decoration-break: clone;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     -webkit-box-decoration-break: clone;
