@@ -12,16 +12,16 @@ function Card() {
                     <h2>Aménagement Rural</h2>
                     <p>Par ses missions, le géomètre-expert est au cœur des problématiques d’aménagement des territoires et de la valorisation des zones rurales. Nous accompagnons différents acteurs du domaine – collectivités, propriétaires, exploitants agricoles – dans la réalisation de leurs projets</p>
                 </header>
-                  <div class="card-author">
-                      <a class="author-avatar" href="#">
+                  <div className="card-author">
+                      <a className="author-avatar" href="#">
                           <img src="./src/img/avatar.png" />
                       </a>
-                      <svg class="half-circle" viewBox="0 0 106 57">
+                      <svg className="half-circle" viewBox="0 0 106 57">
                           <path d="M102 4c0 27.1-21.9 49-49 49S4 31.1 4 4"></path>
                       </svg>
 
-                      <div class="author-name">
-                          <div class="author-name-prefix">Author</div>
+                      <div className="author-name">
+                          <div className="author-name-prefix">Author</div>
                           Jeff Delaney
                       </div>
                   </div>
@@ -38,16 +38,16 @@ function Card() {
                     </p>
                 </header>
                
-                  <div class="card-author">
-                      <a class="author-avatar" href="#">
+                  <div className="card-author">
+                      <a className="author-avatar" href="#">
                           <img src="./src/img/avatar.png" />
                       </a>
-                      <svg class="half-circle" viewBox="0 0 106 57">
+                      <svg className="half-circle" viewBox="0 0 106 57">
                           <path d="M102 4c0 27.1-21.9 49-49 49S4 31.1 4 4"></path>
                       </svg>
 
-                      <div class="author-name">
-                          <div class="author-name-prefix">Author</div>
+                      <div className="author-name">
+                          <div className="author-name-prefix">Author</div>
                           Jeff Delaney
                       </div>
                   </div>
@@ -61,16 +61,16 @@ function Card() {
                         Par sa formation et son savoir-faire, le géomètre-expert est compétent pour réaliser de nombreuses prestations topographiques permettant de répondre aux besoins d’une clientèle diversifiée : particuliers, maîtres d’œuvre, maîtres d’ouvrages, professions immobilières, gestionnaires d’ouvrages…
                     </p>
                 </header>
-                  <div class="card-author">
-                      <a class="author-avatar" href="#">
+                  <div className="card-author">
+                      <a className="author-avatar" href="#">
                           <img src="./src/img/avatar.png" />
                       </a>
-                      <svg class="half-circle" viewBox="0 0 106 57">
+                      <svg className="half-circle" viewBox="0 0 106 57">
                           <path d="M102 4c0 27.1-21.9 49-49 49S4 31.1 4 4"></path>
                       </svg>
 
-                      <div class="author-name">
-                          <div class="author-name-prefix">Author</div>
+                      <div className="author-name">
+                          <div className="author-name-prefix">Author</div>
                           Jeff Delaney
                       </div>
                   </div>
@@ -83,16 +83,16 @@ function Card() {
                     <p>La géomatique est l’ensemble des techniques d’acquisition, d’intégration, de gestion et d’exploitation de l’information géographique. Dans ce cadre, le géomètre-expert accompagne ses clients dans la mise en place, l’exploitation et la maintenance d’un système d’information géographique (SIG).</p>
                 </header>
                 
-                  <div class="card-author">
-                      <a class="author-avatar" href="#">
+                  <div className="card-author">
+                      <a className="author-avatar" href="#">
                           <img src="./src/img/avatar.png" />
                       </a>
-                      <svg class="half-circle" viewBox="0 0 106 57">
+                      <svg className="half-circle" viewBox="0 0 106 57">
                           <path d="M102 4c0 27.1-21.9 49-49 49S4 31.1 4 4"></path>
                       </svg>
 
-                      <div class="author-name">
-                          <div class="author-name-prefix">Author</div>
+                      <div className="author-name">
+                          <div className="author-name-prefix">Author</div>
                           Jeff Delaney
                       </div>
                   </div>
