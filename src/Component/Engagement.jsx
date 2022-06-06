@@ -110,7 +110,7 @@ function Engagement() {
 
     return(
         
-            <div>
+            <div className='troisd'>
                 <canvas id="bg"></canvas>
                 <div className="content">
                     <blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem praesentium similique vero quibusdam, eos minima nemo corrupti eum commodi doloremque eaque facere quam expedita! Eveniet vero amet delectus ut quos.</blockquote>

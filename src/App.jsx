@@ -1,10 +1,10 @@
 import { useState } from 'react'
-import logo from './logo.svg'
+import logo from './Component/logo.svg'
 import './App.css'
 import Navbar from './Component/Navbar'
 import Acceuil from './Component/Accueil'
-import Engagement from './Engagement'
-import Card from './card'
+import Engagement from './Component/Engagement'
+import Card from './Component/card'
 
 function App() {
 
