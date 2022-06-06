@@ -4,11 +4,11 @@ import './App.css'
 import Navbar from './Component/Navbar'
 import Acceuil from './Component/Accueil'
 import Engagement from './Engagement'
-
+import Card from './card'
 
 function App() {
 
-  const [navigation, setNavigation] = useState(0);
+  const [navigation, setNavigation] = useState(2);
   if (navigation == 0) {
     return(
       <div>
@@ -19,13 +19,17 @@ function App() {
   }else if(navigation == 1){
     return(
     <div>
-      <Navbar></Navbar>
+      <Navbar nav={setNavigation} ></Navbar>
       <Engagement></Engagement>
     </div>
     )
-
-
-
+  }else if(navigation == 2){
+    return(
+    <div>
+      <Navbar nav={setNavigation} ></Navbar>
+      <Card></Card>
+    </div>
+    )
   }
   return (
     <div></div>

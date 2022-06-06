@@ -5,9 +5,19 @@ function Navbar(props) {
 
   useEffect(()=>{
     const enga = document.getElementById("enga");
+    const home = document.getElementById("home");
+    const service = document.getElementById("service");
     enga.addEventListener("click", ()=>{
-      console.log("ptdr");
       props.nav(1);
+    })
+
+    home.addEventListener("click", ()=>{
+      console.log("ptdr");
+      props.nav(0);
+    })
+
+    service.addEventListener("click", ()=>{
+      props.nav(2);
     })
   }
 
@@ -45,7 +55,7 @@ function Navbar(props) {
               </a>
           </li>
 
-        <li className='nav-item'>
+        <li className='nav-item' id='home'>
           <a href='#' className="nav-link">
             <svg version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" enableBackground="new 0 0 48 48">
               <polygon fill="#E8EAF6" points="42,39 6,39 6,23 24,6 42,23" />
@@ -58,12 +68,12 @@ function Navbar(props) {
               <rect x="21" y="17" fill="#01579B" width="6" height="6" />
               <path fill="#FF8A65" d="M27.5,35.5c-0.3,0-0.5,0.2-0.5,0.5v2c0,0.3,0.2,0.5,0.5,0.5S28,38.3,28,38v-2C28,35.7,27.8,35.5,27.5,35.5z" />
             </svg>
-            <span className="link-text">Aceuil</span>
+            <span className="link-text">Acceuil</span>
           </a>
          
         </li>
 
-        <li className='nav-item'>
+        <li className='nav-item' id='service'>
           <a href='#' className="nav-link">
             <svg version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" enableBackground="new 0 0 48 48">
               <rect x="16.7" y="1.6" transform="matrix(-.707 -.707 .707 -.707 24 57.941)" fill="#FFA000" width="14.6" height="44.8" />
@@ -101,7 +111,7 @@ function Navbar(props) {
          
         </li>
 
-        <li className='nav-item'>
+        <li className='nav-item' >
           <a href='#' className="nav-link">
                       <svg width="72px" height="72px" viewBox="0 0 72 72" id="emoji" xmlns="http://www.w3.org/2000/svg">
                           <g id="color">

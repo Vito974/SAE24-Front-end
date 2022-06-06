@@ -4,7 +4,7 @@ import './Accueil.css'
 function Accueil() {
 
   return (
-    <main>
+    <main className='acceuil'>
       <section className='blue'>
         <h1>Nice Curves</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem neque velit obcaecati! Aliquam dolorem architecto dolores, mollitia esse aut voluptates, provident molestiae quas, facilis voluptatum. Magnam exercitationem voluptate laudantium molestias.</p>
