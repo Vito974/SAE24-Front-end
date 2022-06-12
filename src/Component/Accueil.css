@@ -6,6 +6,7 @@
     min-height: 400px;
     padding: 100px 20vw;
     z-index: -1;
+    font-size: 1.2rem;
 }
 
 .blue{
@@ -58,4 +59,21 @@
 
 .layer2{
     background-image: url('../img/layer2.svg');
+}
+
+
+
+.acceuil section p {
+
+text-align: justify;
+text-justify: inter-word;
+text-indent: 2rem;
+
+}
+
+.acceuil section img {
+
+width: 70%;
+height: auto;
+    
 }

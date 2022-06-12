@@ -14,15 +14,15 @@ function Card() {
                 </header>
                   <div className="card-author">
                       <a className="author-avatar" href="#">
-                          <img src="./src/img/avatar.png" />
+                          <img src="./src/img/anthony.jpg" />
                       </a>
                       <svg className="half-circle" viewBox="0 0 106 57">
                           <path d="M102 4c0 27.1-21.9 49-49 49S4 31.1 4 4"></path>
                       </svg>
 
                       <div className="author-name">
-                          <div className="author-name-prefix">Author</div>
-                          Jeff Delaney
+                          <div className="author-name-prefix">Auteur</div>
+                          Anthony Ye
                       </div>
                   </div>
             </article>
@@ -31,7 +31,6 @@ function Card() {
                 <header className='card-header'>
                     <p>May 25 2022</p>
                     <h2>Copropriété</h2>
-
                     <p>Le géomètre-expert est habilité à établir les documents permettant de régir tout immeuble bâti dont la propriété est répartie par lots comprenant une partie privative et une quote-part de parties communes.
                     Il dresse les plans des intérieurs (immeubles existants) et exploite les plans du maître d’ouvrage (bâtiments à construire) pour rédiger l’ « état descriptif de division » où sont définies les parties privatives et les parties communes.
                     Il calcule ensuite les quotes-parts des parties communes afférentes à chaque partie privative et celles des charges des équipements communs. Il rédige également le règlement de copropriété.
@@ -40,15 +39,15 @@ function Card() {
                
                   <div className="card-author">
                       <a className="author-avatar" href="#">
-                          <img src="./src/img/avatar.png" />
+                          <img src="./src/img/maxime.jpg" />
                       </a>
                       <svg className="half-circle" viewBox="0 0 106 57">
                           <path d="M102 4c0 27.1-21.9 49-49 49S4 31.1 4 4"></path>
                       </svg>
 
                       <div className="author-name">
-                          <div className="author-name-prefix">Author</div>
-                          Jeff Delaney
+                          <div className="author-name-prefix">Auteur</div>
+                          Maxime Padre
                       </div>
                   </div>
             </article>
@@ -63,15 +62,15 @@ function Card() {
                 </header>
                   <div className="card-author">
                       <a className="author-avatar" href="#">
-                          <img src="./src/img/avatar.png" />
+                          <img src="./src/img/anthony.jpg" />
                       </a>
                       <svg className="half-circle" viewBox="0 0 106 57">
                           <path d="M102 4c0 27.1-21.9 49-49 49S4 31.1 4 4"></path>
                       </svg>
 
                       <div className="author-name">
-                          <div className="author-name-prefix">Author</div>
-                          Jeff Delaney
+                          <div className="author-name-prefix">Auteur</div>
+                          Anthony Ye
                       </div>
                   </div>
             </article>
@@ -85,15 +84,15 @@ function Card() {
                 
                   <div className="card-author">
                       <a className="author-avatar" href="#">
-                          <img src="./src/img/avatar.png" />
+                          <img src="./src/img/maxime.jpg" />
                       </a>
                       <svg className="half-circle" viewBox="0 0 106 57">
                           <path d="M102 4c0 27.1-21.9 49-49 49S4 31.1 4 4"></path>
                       </svg>
 
                       <div className="author-name">
-                          <div className="author-name-prefix">Author</div>
-                          Jeff Delaney
+                          <div className="author-name-prefix">Auteur</div>
+                          Maxime Padre
                       </div>
                   </div>
             </article>
