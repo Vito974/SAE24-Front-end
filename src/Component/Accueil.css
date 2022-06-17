@@ -71,9 +71,26 @@ text-indent: 2rem;
 
 }
 
+
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content : space-around
+}
+
+
+
 .acceuil section img {
 
-width: 70%;
-height: auto;
-    
+    width: 70%;
+    height: auto;
+        
+}
+
+.imageet {
+    margin-right: 2rem;
+    height: 56px;
+    width: 56px;
+        
 }

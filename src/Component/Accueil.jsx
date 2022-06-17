@@ -27,7 +27,7 @@ function Accueil() {
 
       <section >
         <h1>Garantie et déontologie</h1>
-        <p>Voluptates iste porro quo molestiae ea illum minus nesciunt optio vel. Quidem soluta asperiores pariatur architecto. Nesciunt exercitationem, fugiat soluta ab praesentium officia, quae harum fugit quaerat a nam accusantium!</p>
+        <p>Notre cabinet de géomètre-expert est tenu de sauvegarder son indépendance en toutes circonstances. Nous refusons toute mission dans laquelle nous serions juge et partie et toute mission en relation avec nos intérêts personnels ou ceux de ses parents, proches ou associés. </p>
         <br />
         <img src="./src/img/geometre.jpg" alt="" />
       </section>
@@ -43,13 +43,18 @@ function Accueil() {
       </section>
 
       <section  className='pink'>
-        <h1>Nos Activités</h1>
+        <h1>About Us</h1>
         <p>Vel atque quam vitae molestiae adipisci sapiente ipsa cum alias quibusdam enim repellat, sit, fuga fugit facilis? Magni cumque, cupiditate similique blanditiis sequi quisquam veritatis, repellendus reiciendis explicabo odio corporis.</p>
       </section>
       
       <section>
         <h1>Nous Contacter</h1>
-        <p>Quis dolores soluta a magnam iure minima qui numquam blanditiis dolore. Autem fugiat natus doloremque nemo. Esse accusamus impedit, ratione consequuntur amet repudiandae, laborum perferendis enim iste rem, ducimus natus.</p>
+        <div className='footer'>
+          <img className='imageet' src="./src/img/facebook.png" alt="" />
+          <img className='imageet' src="./src/img/instagram.png" alt="" />
+          <img className='imageet' src="./src/img/linkedin.png" alt="" />
+        </div>
+        
       </section>
     </main>
   )
